@@ -1,0 +1,18 @@
+﻿La génération a démarré 2015-03-13 14:47:11.
+     1>Projet "C:\Users\Usager\Desktop\LAB3_6Mars_VENDREDI_AVE_MOYENNE_ET_MEDIANE\Lab_3_Patrick_Myriam\Lab_2_Patrick_Myriam\Lab_2_Patrick_Myriam\OpenCVDefault\OpenCVDefault.vcxproj" sur le nœud 2 (build cible(s)).
+     1>InitializeBuildStatus:
+         Création de "x64\Debug\OpenCVDetecMov.unsuccessfulbuild", car "AlwaysCreate" a été spécifié.
+       ClCompile:
+         Toutes les sorties sont à jour.
+         Toutes les sorties sont à jour.
+       Link:
+         Toutes les sorties sont à jour.
+         OpenCVDefault.vcxproj -> C:\Users\Usager\Desktop\LAB3_6Mars_VENDREDI_AVE_MOYENNE_ET_MEDIANE\Lab_3_Patrick_Myriam\Lab_2_Patrick_Myriam\Lab_2_Patrick_Myriam\x64\Debug\OpenCVDetecMov.exe
+       FinalizeBuildStatus:
+         Suppression du fichier "x64\Debug\OpenCVDetecMov.unsuccessfulbuild".
+         Mise à jour de l'horodatage "x64\Debug\OpenCVDetecMov.lastbuildstate".
+     1>Génération du projet "C:\Users\Usager\Desktop\LAB3_6Mars_VENDREDI_AVE_MOYENNE_ET_MEDIANE\Lab_3_Patrick_Myriam\Lab_2_Patrick_Myriam\Lab_2_Patrick_Myriam\OpenCVDefault\OpenCVDefault.vcxproj" terminée (build cible(s)).
+
+La génération a réussi.
+
+Temps écoulé 00:00:00.04

@@ -1,0 +1,33 @@
+﻿La génération a démarré 2014-09-05 09:41:49.
+     1>Projet "Z:\OpenCVDefault\OpenCVDefault\OpenCVDefault.vcxproj" sur le nœud 2 (build cible(s)).
+     1>InitializeBuildStatus:
+         Mise à jour de l'horodatage "Debug\OpenCVDefault.unsuccessfulbuild".
+       AddCudaCompileDeps:
+       La cible est ignorée "AddCudaCompileDeps", car tous les fichiers de sortie sont à jour par rapport aux fichiers d'entrée.
+       CudaBuild:
+       La cible est ignorée "CudaBuild", car tous les fichiers de sortie sont à jour par rapport aux fichiers d'entrée.
+       ClCompile:
+         Toutes les sorties sont à jour.
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.0\include" /I\..\..\include /IC:\opencv\build\include\ /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\OpenCVDefault.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt OpenCVDefault.cpp
+         OpenCVDefault.cpp
+       ManifestResourceCompile:
+         c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\OpenCVDefault.exe.embed.manifest.res" Debug\OpenCVDefault_manifest.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"Z:\OpenCVDefault\Debug\OpenCVDefault.exe" /INCREMENTAL /NOLOGO /LIBPATH:\lib /LIBPATH:C:\opencv\build\x64\vc10\lib /LIBPATH:"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.0\lib\Win32" opencv_core249d.lib opencv_imgproc249d.lib opencv_highgui249d.lib opencv_ml249d.lib opencv_video249d.lib opencv_features2d249d.lib opencv_calib3d249d.lib opencv_objdetect249d.lib opencv_contrib249d.lib opencv_legacy249d.lib opencv_flann249d.lib cudart.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\OpenCVDefault.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"Z:\OpenCVDefault\Debug\OpenCVDefault.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"Z:\OpenCVDefault\Debug\OpenCVDefault.lib" /MACHINE:X86 Debug\Kernel.cu.obj
+         Debug\OpenCVDefault.exe.embed.manifest.res
+         Debug\OpenCVDefault.obj
+         Debug\stdafx.obj
+     1>OpenCVDefault.obj : error LNK2019: symbole externe non résolu "void __cdecl cv::imshow(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class cv::_InputArray const &)" (?imshow@cv@@YAXABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@ABV_InputArray@1@@Z) référencé dans la fonction _main
+     1>OpenCVDefault.obj : error LNK2019: symbole externe non résolu "public: __thiscall cv::_InputArray::_InputArray(class cv::Mat const &)" (??0_InputArray@cv@@QAE@ABVMat@1@@Z) référencé dans la fonction _main
+     1>OpenCVDefault.obj : error LNK2019: symbole externe non résolu "void __cdecl cv::namedWindow(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,int)" (?namedWindow@cv@@YAXABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@H@Z) référencé dans la fonction _main
+     1>OpenCVDefault.obj : error LNK2019: symbole externe non résolu "class cv::Mat __cdecl cv::imread(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,int)" (?imread@cv@@YA?AVMat@1@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@H@Z) référencé dans la fonction _main
+     1>OpenCVDefault.obj : error LNK2019: symbole externe non résolu "void __cdecl cv::fastFree(void *)" (?fastFree@cv@@YAXPAX@Z) référencé dans la fonction "public: __thiscall cv::Mat::~Mat(void)" (??1Mat@cv@@QAE@XZ)
+     1>OpenCVDefault.obj : error LNK2019: symbole externe non résolu "public: void __thiscall cv::Mat::copySize(class cv::Mat const &)" (?copySize@Mat@cv@@QAEXABV12@@Z) référencé dans la fonction "public: class cv::Mat & __thiscall cv::Mat::operator=(class cv::Mat const &)" (??4Mat@cv@@QAEAAV01@ABV01@@Z)
+     1>OpenCVDefault.obj : error LNK2019: symbole externe non résolu "int __cdecl cv::_interlockedExchangeAdd(int *,int)" (?_interlockedExchangeAdd@cv@@YAHPAHH@Z) référencé dans la fonction "public: class cv::Mat & __thiscall cv::Mat::operator=(class cv::Mat const &)" (??4Mat@cv@@QAEAAV01@ABV01@@Z)
+     1>OpenCVDefault.obj : error LNK2019: symbole externe non résolu "public: void __thiscall cv::Mat::deallocate(void)" (?deallocate@Mat@cv@@QAEXXZ) référencé dans la fonction "public: void __thiscall cv::Mat::release(void)" (?release@Mat@cv@@QAEXXZ)
+     1>Z:\OpenCVDefault\Debug\OpenCVDefault.exe : fatal error LNK1120: 8 externes non résolus
+     1>Génération du projet "Z:\OpenCVDefault\OpenCVDefault\OpenCVDefault.vcxproj" terminée (build cible(s)) -- ÉCHEC.
+
+ÉCHEC de la build.
+
+Temps écoulé 00:00:01.41
